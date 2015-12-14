@@ -98,7 +98,6 @@ int main() {
     memset(&serverAddr, 0, sizeof(serverAddr));
     serverAddr.sin_family = PF_INET;
     serverAddr.sin_port = htons(port);
-    printf(inet_ntoa(newAddr));
     serverAddr.sin_addr.s_addr = inet_addr(inet_ntoa(newAddr));
 
     //INVIA PRIMO MESSAGGIO AL SERVER
