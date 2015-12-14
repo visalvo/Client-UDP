@@ -169,6 +169,7 @@ int main() {
     }
 
     closeConnection(sock);
+    printf("\n");
     system("pause");
     return 0;
 }
